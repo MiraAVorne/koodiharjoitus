@@ -23,7 +23,7 @@ int main()
     double pallon_sade, pallon_ala, pallon_tilavuus;
 
     int luku;
-    cout << "Anna säde: " << endl;
+    cout << "Anna säde " << endl;
 	  cin >> pallon_sade;
 
     pallon_ala=4*pii*(pallon_sade*pallon_sade);
