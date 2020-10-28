@@ -46,8 +46,39 @@ int main()
 
     cout << "Yli jäävän alueen koko on siis 15*" << alueen_pituus%laatta_pituus << ": " << 15 * (alueen_pituus%laatta_pituus) << "m2"<<endl;
 
-    cout << "valmis";
+    cout << "valmis " << endl;
 
-    
+    string autoja[]={"Hyundai", "Mersu", "Toytota"};
 
+    cout << autoja[1]<< endl;
+
+    autoja[1]="Saab";
+
+    cout << autoja[1]<< endl;
+
+    // Miten lisätään elementti arrayn loppuun.
+
+    if(ika==43)
+    {
+      cout<<"Olet 43 vuotias";
+    }
+
+    if(ika<43)
+    {
+      cout << "Olen nuorempi kuin 43";
+    }
+
+    if(ika>43){
+      cout << "Olet vanhempi kuin 43";
+    }
+
+    if(ika == 43){
+      cout << "Olet 43";
+    }
+    else if (ika < 43){
+      cout << "Olet alle 43";
+    }
+    else{
+      cout << "Olet yli 43";
+    }
 }
