@@ -47,4 +47,7 @@ int main()
     cout << "Yli jäävän alueen koko on siis 15*" << alueen_pituus%laatta_pituus << ": " << 15 * (alueen_pituus%laatta_pituus) << "m2"<<endl;
 
     cout << "valmis";
+
+    
+
 }
