@@ -7,6 +7,13 @@ kommentteja, 2. rivi
 
 using namespace std;
 
+void kontrollinSiirtoEsimerkki(){
+  cout<<"Kävin täällä"<<endl;
+}
+void kontrollinSiirtoParametrilla(string etunimi){
+  cout<<etunimi;
+}
+
 int main()
 {
    cout << "Hello World"  
@@ -48,7 +55,7 @@ int main()
 
     cout << "valmis " << endl;
 
-    string autoja[]={"Hyundai", "Mersu", "Toytota"};
+    string autoja[8]={"Hyundai", "Mersu", "Toytota"};
 
     cout << autoja[1]<< endl;
 
@@ -56,29 +63,45 @@ int main()
 
     cout << autoja[1]<< endl;
 
-    // Miten lisätään elementti arrayn loppuun.
+    autoja[7]="BMW";
+    cout << "auto indexillä 7: " << autoja[7] << endl;
 
     if(ika==43)
     {
-      cout<<"Olet 43 vuotias";
+      cout<<"Olet 43 vuotias" << endl;
     }
 
     if(ika<43)
     {
-      cout << "Olen nuorempi kuin 43";
+      cout << "Olen nuorempi kuin 43" << endl;
     }
 
     if(ika>43){
-      cout << "Olet vanhempi kuin 43";
+      cout << "Olet vanhempi kuin 43" << endl;
     }
 
     if(ika == 43){
-      cout << "Olet 43";
+      cout << "Olet 43" << endl;
     }
     else if (ika < 43){
-      cout << "Olet alle 43";
+      cout << "Olet alle 43" << endl;
     }
     else{
-      cout << "Olet yli 43";
+      cout << "Olet yli 43" << endl;
     }
+    cout << endl;
+    int i=1;
+    while(i<5){
+      cout<<"While loopin kierros nro: " << i << endl;
+      i=i+1;
+    }
+    cout<<endl;
+    for(int i=1; i<5; i++){
+      cout << "For loopin kierros nro: " << i << endl;
+    }
+    cout<<endl;
+    kontrollinSiirtoEsimerkki();
+
+    kontrollinSiirtoParametrilla("Mira");
+
 }
