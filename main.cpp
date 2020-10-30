@@ -92,7 +92,7 @@ int main()
     cout << endl;
     int i=1;
     while(i<5){
-      cout<<"While loopin kierros nro: " << i << endl;
+      cout<<"While loopin kierros nr o: " << i << endl;
       i=i+1;
     }
     cout<<endl;
